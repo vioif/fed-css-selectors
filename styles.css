@@ -33,3 +33,30 @@ h2 {
 .even {
   background-color: grey;
 }
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2{
+  text-align: right;
+}
+
+a:nth-child(odd) {
+  background-color: green;
+}
+
+ol li {
+  background-color: grey;
+}
+a[title="Bitmaker"]:hover{
+  text-decoration: none;
+}
+
+ul li {
+  background-color: yellow;
+}
+
+ul li a:hover {
+    background-color: red;
+}
